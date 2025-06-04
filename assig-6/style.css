@@ -1,0 +1,40 @@
+.home {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.home-content {
+    width: 70%;
+    border-radius: 10px;
+    padding: 20px;
+    border: solid 2px orangered;
+    color: rgb(100, 189, 225);
+}
+.home-content p{
+    color: rgb(244, 234, 234);
+}
+.btn-1{
+    padding: 10px 30px;
+    background-color: rgb(100, 189, 225);
+    color: black;
+    margin-top: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+}
+.btn-1:hover{
+     transform: scale(1.1);
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+    transition: 0.7s;
+    box-shadow: rgb(100, 189, 225) 2px 2px 7px;
+}
+.btn-1 a{
+    text-decoration: none;
+
+}
